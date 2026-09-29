@@ -40,6 +40,18 @@ window.PORTAL = {
       ]
     },
     {
+      name: { zh: "程式與 AI", en: "Coding & AI" },
+      icon: "💻",
+      links: [
+        {
+          title: { zh: "Code.org AI 一小時", en: "Code.org Hour of AI" },
+          url: "https://code.org/en-US/hour-of-ai",
+          desc: { zh: "Code.org 的一小時 AI 入門活動，適合學生", en: "One-hour intro activities on AI from Code.org, made for students" },
+          added: "2026-09-29"
+        }
+      ]
+    },
+    {
       name: { zh: "語言學習", en: "Languages" },
       icon: "🗣️",
       links: [
