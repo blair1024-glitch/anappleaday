@@ -60,6 +60,12 @@ window.PORTAL = {
           url: "https://play-cs.com/zh/",
           desc: { zh: "瀏覽器直接玩 Counter-Strike 1.6", en: "Play Counter-Strike 1.6 in your browser" },
           added: "2026-09-29"
+        },
+        {
+          title: "Coolmath Games",
+          url: "https://www.coolmathgames.com/",
+          desc: { zh: "免費益智、邏輯與數學小遊戲", en: "Free puzzle, logic and math-flavored browser games" },
+          added: "2026-09-29"
         }
       ]
     }
