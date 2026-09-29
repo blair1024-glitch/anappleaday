@@ -24,6 +24,12 @@ window.PORTAL = {
           url: "https://zperiod.app/?lang=zh-Hant",
           desc: { zh: "互動式元素週期表", en: "Interactive periodic table" },
           added: "2026-09-29"
+        },
+        {
+          title: "LabXchange",
+          url: "https://www.labxchange.org/",
+          desc: { zh: "哈佛大學推出的免費科學學習平台，有虛擬實驗室", en: "Free science learning platform from Harvard, with virtual labs" },
+          added: "2026-09-29"
         }
       ]
     },
