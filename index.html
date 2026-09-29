@@ -10,16 +10,32 @@
 <body>
   <header class="top">
     <div class="wrap">
-      <h1 id="site-title">An Apple A Day</h1>
+      <div class="title-row">
+        <h1 id="site-title">An Apple A Day</h1>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
       <p id="site-subtitle" class="subtitle"></p>
-      <input id="search" type="search" placeholder="搜尋網站名稱、說明或網址…（按 / 快速搜尋）" autocomplete="off">
+
+      <section id="daily" class="daily" hidden>
+        <div class="daily-head">
+          <span id="daily-label" class="daily-label"></span>
+          <span id="daily-date" class="daily-date"></span>
+          <button type="button" id="shuffle" class="shuffle"></button>
+        </div>
+        <a id="daily-card" class="daily-card" target="_blank" rel="noopener noreferrer"></a>
+      </section>
+
+      <input id="search" type="search" autocomplete="off">
       <nav id="nav" class="nav"></nav>
     </div>
   </header>
 
   <main class="wrap">
     <div id="content"></div>
-    <p id="empty" class="empty" hidden>找不到符合的網站</p>
+    <p id="empty" class="empty" hidden></p>
   </main>
 
   <footer class="wrap foot">🍎 An Apple A Day</footer>
