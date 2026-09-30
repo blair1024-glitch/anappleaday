@@ -4,8 +4,7 @@
 //
 // 分類：name（分類名稱）、icon（一個 emoji）、links（連結清單）
 // 連結：title（標題）、url（網址）、desc（簡短說明，可省略）、
-//       added（加入日期 YYYY-MM-DD，7 天內會顯示「新」標籤）、
-//       stars（推薦指數 1–3，可省略）
+//       added（加入日期 YYYY-MM-DD，7 天內會顯示「新」標籤）
 window.PORTAL = {
   title: "An Apple A Day",
   subtitle: { zh: "一天一個強大的網站", en: "One powerful website a day" },
@@ -36,14 +35,12 @@ window.PORTAL = {
           title: "oPhysics",
           url: "https://ophysics.com/",
           desc: { zh: "高中／大學物理互動模擬，物理公式與幾何圖形結合", en: "Interactive physics simulations for high school and college, pairing formulas with geometry" },
-          stars: 2,
           added: "2026-09-30"
         },
         {
           title: "ChemCollective",
           url: "https://chemcollective.org/",
           desc: { zh: "線上化學滴定與溶液配製，虛擬化學實驗操作演練", en: "Virtual chemistry labs: practice titrations and preparing solutions" },
-          stars: 3,
           added: "2026-09-30"
         }
       ]
@@ -56,7 +53,6 @@ window.PORTAL = {
           title: "GeoGebra",
           url: "https://www.geogebra.org/",
           desc: { zh: "全領域數學、幾何、物理，功能強大；數學推導、動態幾何證題", en: "Powerful dynamic math for geometry, algebra and physics: derivations and geometric proofs" },
-          stars: 3,
           added: "2026-09-30"
         },
         {
@@ -75,7 +71,6 @@ window.PORTAL = {
           title: "Tinkercad",
           url: "https://www.tinkercad.com/",
           desc: { zh: "3D 建模、機器人、電子電路、Arduino；創客實作、程式與硬體模擬", en: "3D design, robotics, circuits and Arduino: simulate code and hardware for maker projects" },
-          stars: 2,
           added: "2026-09-29"
         }
       ]

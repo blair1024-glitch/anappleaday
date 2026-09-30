@@ -9,7 +9,6 @@
       shuffle: "🎲 換一個",
       open: "前往網站 →",
       isNew: "新",
-      stars: "推薦指數",
       locale: "zh-TW"
     },
     en: {
@@ -19,7 +18,6 @@
       shuffle: "🎲 Surprise me",
       open: "Visit site →",
       isNew: "NEW",
-      stars: "Rating",
       locale: "en-US"
     }
   };
@@ -139,11 +137,6 @@
     var text = el("span", "text");
     var title = el("span", "title");
     title.appendChild(el("span", "name", tr(link.title) || host));
-    if (link.stars) {
-      var stars = el("span", "stars", "⭐".repeat(Math.min(3, Math.max(1, link.stars | 0))));
-      stars.title = UI[lang].stars;
-      title.appendChild(stars);
-    }
     if (isNew(link)) title.appendChild(el("span", "badge", UI[lang].isNew));
     text.appendChild(title);
     text.appendChild(el("span", "desc", tr(link.desc) || host));

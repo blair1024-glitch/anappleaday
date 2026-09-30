@@ -179,7 +179,6 @@ h1::before { content: "🍎 "; }
   line-clamp: 2;
 }
 .card .title .name { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-.stars { flex: none; margin-left: 6px; font-size: 11px; letter-spacing: -1px; }
 .badge {
   flex: none;
   margin-left: 6px;

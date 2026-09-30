@@ -27,8 +27,7 @@
   title: "網站名稱",                                   // 中英相同時寫一個字串即可
   url: "https://example.com",
   desc: { zh: "中文說明", en: "English description" },
-  added: "2026-09-29",                                 // 加入日期
-  stars: 3                                             // 推薦指數 1–3（可省略）
+  added: "2026-09-29"                                  // 加入日期
 },
 ```
 
