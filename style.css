@@ -171,7 +171,15 @@ h1::before { content: "🍎 "; }
 .desc { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .card .title { display: flex; align-items: center; }
+.card .desc {
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
 .card .title .name { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.stars { flex: none; margin-left: 6px; font-size: 11px; letter-spacing: -1px; }
 .badge {
   flex: none;
   margin-left: 6px;
