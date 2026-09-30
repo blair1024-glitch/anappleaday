@@ -40,7 +40,14 @@
 
   <footer class="wrap foot">🍎 An Apple A Day</footer>
 
-  <script src="links.js"></script>
-  <script src="app.js"></script>
+  <script>
+    // Always fetch the latest links/app so new sites show up right after a deploy
+    ["links.js", "app.js"].forEach(function (src) {
+      var s = document.createElement("script");
+      s.src = src + "?v=" + Date.now();
+      s.async = false;
+      document.body.appendChild(s);
+    });
+  </script>
 </body>
 </html>

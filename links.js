@@ -30,6 +30,36 @@ window.PORTAL = {
           url: "https://www.labxchange.org/",
           desc: { zh: "哈佛大學推出的免費科學學習平台，有虛擬實驗室", en: "Free science learning platform from Harvard, with virtual labs" },
           added: "2026-09-29"
+        },
+        {
+          title: "oPhysics",
+          url: "https://ophysics.com/",
+          desc: { zh: "高中／大學物理互動模擬，物理公式與幾何圖形結合", en: "Interactive physics simulations for high school and college, pairing formulas with geometry" },
+          added: "2026-09-30"
+        },
+        {
+          title: "ChemCollective",
+          url: "https://chemcollective.org/",
+          desc: { zh: "線上化學滴定與溶液配製，虛擬化學實驗操作演練", en: "Virtual chemistry labs: practice titrations and preparing solutions" },
+          added: "2026-09-30"
+        }
+      ]
+    },
+    {
+      name: { zh: "數學", en: "Math" },
+      icon: "📐",
+      links: [
+        {
+          title: "GeoGebra",
+          url: "https://www.geogebra.org/",
+          desc: { zh: "全領域數學、幾何、物理，功能強大；數學推導、動態幾何證題", en: "Powerful dynamic math for geometry, algebra and physics: derivations and geometric proofs" },
+          added: "2026-09-30"
+        },
+        {
+          title: "Cymath",
+          url: "https://www.cymath.com/hk",
+          desc: { zh: "數學解題器，逐步列出解題過程", en: "Math problem solver that shows every step" },
+          added: "2026-09-30"
         }
       ]
     },
@@ -40,7 +70,7 @@ window.PORTAL = {
         {
           title: "Tinkercad",
           url: "https://www.tinkercad.com/",
-          desc: { zh: "線上 3D 建模、電路與程式設計", en: "3D modeling, circuits and coding in the browser" },
+          desc: { zh: "3D 建模、機器人、電子電路、Arduino；創客實作、程式與硬體模擬", en: "3D design, robotics, circuits and Arduino: simulate code and hardware for maker projects" },
           added: "2026-09-29"
         }
       ]

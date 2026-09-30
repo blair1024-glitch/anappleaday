@@ -141,6 +141,7 @@
     text.appendChild(title);
     text.appendChild(el("span", "desc", tr(link.desc) || host));
 
+    a.title = tr(link.desc) || host;
     a.appendChild(favicon(link));
     a.appendChild(text);
     a.dataset.search = [allText(link.title), allText(link.desc), link.url].join(" ").toLowerCase();
