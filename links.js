@@ -24,6 +24,12 @@ window.PORTAL = {
           url: "https://zperiod.app/?lang=zh-Hant",
           desc: { zh: "互動式元素週期表", en: "Interactive periodic table" },
           added: "2026-09-29"
+        },
+        {
+          title: "LabXchange",
+          url: "https://www.labxchange.org/",
+          desc: { zh: "哈佛大學推出的免費科學學習平台，有虛擬實驗室", en: "Free science learning platform from Harvard, with virtual labs" },
+          added: "2026-09-29"
         }
       ]
     },
@@ -35,6 +41,18 @@ window.PORTAL = {
           title: "Tinkercad",
           url: "https://www.tinkercad.com/",
           desc: { zh: "線上 3D 建模、電路與程式設計", en: "3D modeling, circuits and coding in the browser" },
+          added: "2026-09-29"
+        }
+      ]
+    },
+    {
+      name: { zh: "程式與 AI", en: "Coding & AI" },
+      icon: "💻",
+      links: [
+        {
+          title: { zh: "Code.org AI 一小時", en: "Code.org Hour of AI" },
+          url: "https://code.org/en-US/hour-of-ai",
+          desc: { zh: "Code.org 的一小時 AI 入門活動，適合學生", en: "One-hour intro activities on AI from Code.org, made for students" },
           added: "2026-09-29"
         }
       ]
@@ -59,6 +77,12 @@ window.PORTAL = {
           title: "Play-CS",
           url: "https://play-cs.com/zh/",
           desc: { zh: "瀏覽器直接玩 Counter-Strike 1.6", en: "Play Counter-Strike 1.6 in your browser" },
+          added: "2026-09-29"
+        },
+        {
+          title: "Coolmath Games",
+          url: "https://www.coolmathgames.com/",
+          desc: { zh: "免費益智、邏輯與數學小遊戲", en: "Free puzzle, logic and math-flavored browser games" },
           added: "2026-09-29"
         }
       ]
