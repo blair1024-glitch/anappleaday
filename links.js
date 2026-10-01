@@ -128,6 +128,12 @@ window.PORTAL = {
       icon: "💻",
       links: [
         {
+          title: "Code.org",
+          url: "https://code.org",
+          desc: { zh: "免費程式教學平台，從積木到文字程式都有，適合各年級", en: "Free coding courses for every grade, from blocks to text-based programming" },
+          added: "2026-10-01"
+        },
+        {
           title: { zh: "Code.org AI 一小時", en: "Code.org Hour of AI" },
           url: "https://code.org/en-US/hour-of-ai",
           desc: { zh: "Code.org 的一小時 AI 入門活動，適合學生", en: "One-hour intro activities on AI from Code.org, made for students" },
@@ -137,6 +143,30 @@ window.PORTAL = {
           title: "Scratch",
           url: "https://scratch.mit.edu",
           desc: { zh: "MIT 的積木式程式語言，拖拉積木做動畫和遊戲", en: "MIT's block-based coding: build animations and games by snapping blocks together" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Day of AI",
+          url: "https://dayofai.org",
+          desc: { zh: "MIT RAISE 設計的免費 AI 素養課程，從幼兒園到高中", en: "Free PreK–12 AI literacy curriculum designed by MIT RAISE" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Experience AI",
+          url: "https://experience-ai.org/en/",
+          desc: { zh: "Google DeepMind 與樹莓派基金會合作的免費 AI 課程", en: "Free AI lessons from Google DeepMind and the Raspberry Pi Foundation" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Machine Learning for Kids",
+          url: "https://machinelearningforkids.co.uk",
+          desc: { zh: "動手訓練機器學習模型，再用 Scratch 做成遊戲和專題", en: "Train your own machine learning models, then build games and projects with them in Scratch" },
+          added: "2026-10-01"
+        },
+        {
+          title: { zh: "WaytoAGI 通往 AGI 之路", en: "WaytoAGI" },
+          url: "https://www.waytoagi.com/zh",
+          desc: { zh: "中文 AI 知識庫，整理 AI 工具、教學和學習路徑", en: "Chinese-language AI knowledge base of tools, tutorials and learning paths" },
           added: "2026-10-01"
         }
       ]
