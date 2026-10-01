@@ -42,6 +42,12 @@ window.PORTAL = {
           url: "https://chemcollective.org/",
           desc: { zh: "線上化學滴定與溶液配製，虛擬化學實驗操作演練", en: "Virtual chemistry labs: practice titrations and preparing solutions" },
           added: "2026-09-30"
+        },
+        {
+          title: { zh: "NOBOOK 虛擬化學實驗室", en: "NOBOOK Virtual Chemistry Lab" },
+          url: "https://chemistry-en.nobook.com/console/templates/resource",
+          desc: { zh: "3D 虛擬化學實驗，用拖拉器材的方式動手做實驗", en: "3D virtual chemistry lab where you run experiments with drag-and-drop equipment" },
+          added: "2026-10-01"
         }
       ]
     },
@@ -96,6 +102,12 @@ window.PORTAL = {
           url: "https://www.bbc.co.uk/learningenglish/",
           desc: { zh: "BBC 英語學習課程與新聞英語", en: "English lessons and news English from the BBC" },
           added: "2026-09-29"
+        },
+        {
+          title: "Qwerty Learner",
+          url: "https://qwerty.kaiyi.cool/mobile",
+          desc: { zh: "邊打字邊背英文單字，同時練習打字速度", en: "Learn English vocabulary by typing it, while building typing speed" },
+          added: "2026-09-30"
         }
       ]
     },
