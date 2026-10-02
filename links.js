@@ -10,6 +10,30 @@ window.PORTAL = {
   subtitle: { zh: "一天一個強大的網站", en: "One powerful website a day" },
   categories: [
     {
+      name: { zh: "綜合課程", en: "Courses" },
+      icon: "📚",
+      links: [
+        {
+          title: { zh: "可汗學院", en: "Khan Academy" },
+          url: "https://www.khanacademy.org",
+          desc: { zh: "免費線上課程與練習，涵蓋數學、科學、程式等科目", en: "Free courses and practice in math, science, computing and more" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Crash Course",
+          url: "https://crashcourse.com",
+          desc: { zh: "節奏明快的知識短片，涵蓋歷史、科學、文學等", en: "Fast-paced educational videos on history, science, literature and more" },
+          added: "2026-10-01"
+        },
+        {
+          title: { zh: "MIT 開放式課程", en: "MIT OpenCourseWare" },
+          url: "https://ocw.mit.edu",
+          desc: { zh: "麻省理工學院免費公開的大學課程講義與影片", en: "Free lecture notes, videos and materials from MIT courses" },
+          added: "2026-10-01"
+        }
+      ]
+    },
+    {
       name: { zh: "科學學習", en: "Science" },
       icon: "🔬",
       links: [
@@ -52,6 +76,24 @@ window.PORTAL = {
       ]
     },
     {
+      name: { zh: "兒童探索", en: "Kids Explore" },
+      icon: "🌍",
+      links: [
+        {
+          title: "NASA Space Place",
+          url: "https://spaceplace.nasa.gov",
+          desc: { zh: "NASA 為孩子設計的太空與地球科學遊戲、實作活動", en: "NASA's space and Earth science games and activities for kids" },
+          added: "2026-10-01"
+        },
+        {
+          title: { zh: "國家地理兒童版", en: "National Geographic Kids" },
+          url: "https://kids.nationalgeographic.com",
+          desc: { zh: "動物、自然、地理與歷史的趣味知識和影片", en: "Fun facts and videos about animals, nature, geography and history" },
+          added: "2026-10-01"
+        }
+      ]
+    },
+    {
       name: { zh: "數學", en: "Math" },
       icon: "📐",
       links: [
@@ -86,10 +128,46 @@ window.PORTAL = {
       icon: "💻",
       links: [
         {
+          title: "Code.org",
+          url: "https://code.org",
+          desc: { zh: "免費程式教學平台，從積木到文字程式都有，適合各年級", en: "Free coding courses for every grade, from blocks to text-based programming" },
+          added: "2026-10-01"
+        },
+        {
           title: { zh: "Code.org AI 一小時", en: "Code.org Hour of AI" },
           url: "https://code.org/en-US/hour-of-ai",
           desc: { zh: "Code.org 的一小時 AI 入門活動，適合學生", en: "One-hour intro activities on AI from Code.org, made for students" },
           added: "2026-09-29"
+        },
+        {
+          title: "Scratch",
+          url: "https://scratch.mit.edu",
+          desc: { zh: "MIT 的積木式程式語言，拖拉積木做動畫和遊戲", en: "MIT's block-based coding: build animations and games by snapping blocks together" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Day of AI",
+          url: "https://dayofai.org",
+          desc: { zh: "MIT RAISE 設計的免費 AI 素養課程，從幼兒園到高中", en: "Free PreK–12 AI literacy curriculum designed by MIT RAISE" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Experience AI",
+          url: "https://experience-ai.org/en/",
+          desc: { zh: "Google DeepMind 與樹莓派基金會合作的免費 AI 課程", en: "Free AI lessons from Google DeepMind and the Raspberry Pi Foundation" },
+          added: "2026-10-01"
+        },
+        {
+          title: "Machine Learning for Kids",
+          url: "https://machinelearningforkids.co.uk",
+          desc: { zh: "動手訓練機器學習模型，再用 Scratch 做成遊戲和專題", en: "Train your own machine learning models, then build games and projects with them in Scratch" },
+          added: "2026-10-01"
+        },
+        {
+          title: { zh: "WaytoAGI 通往 AGI 之路", en: "WaytoAGI" },
+          url: "https://www.waytoagi.com/zh",
+          desc: { zh: "中文 AI 知識庫，整理 AI 工具、教學和學習路徑", en: "Chinese-language AI knowledge base of tools, tutorials and learning paths" },
+          added: "2026-10-01"
         }
       ]
     },
