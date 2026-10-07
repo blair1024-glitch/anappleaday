@@ -9,6 +9,8 @@
       shuffle: "🎲 換一個",
       open: "前往網站 →",
       isNew: "新",
+      pv: "次瀏覽",
+      uv: "位訪客",
       locale: "zh-TW"
     },
     en: {
@@ -18,6 +20,8 @@
       shuffle: "🎲 Surprise me",
       open: "Visit site →",
       isNew: "NEW",
+      pv: "views",
+      uv: "visitors",
       locale: "en-US"
     }
   };
@@ -197,6 +201,8 @@
     $("site-subtitle").textContent = tr(data.subtitle);
     search.placeholder = t.search;
     empty.textContent = t.empty;
+    $("pv-label").textContent = t.pv;
+    $("uv-label").textContent = t.uv;
     document.querySelectorAll(".lang button").forEach(function (b) {
       b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
     });
