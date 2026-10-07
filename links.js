@@ -30,6 +30,12 @@ window.PORTAL = {
           url: "https://ocw.mit.edu",
           desc: { zh: "麻省理工學院免費公開的大學課程講義與影片", en: "Free lecture notes, videos and materials from MIT courses" },
           added: "2026-10-01"
+        },
+        {
+          title: "TED-Ed",
+          url: "https://ed.ted.com",
+          desc: { zh: "TED 的教育動畫短片，用幾分鐘講清楚一個知識點", en: "TED's animated lessons that explain a big idea in a few minutes" },
+          added: "2026-10-06"
         }
       ]
     },
@@ -72,6 +78,12 @@ window.PORTAL = {
           url: "https://chemistry-en.nobook.com/console/templates/resource",
           desc: { zh: "3D 虛擬化學實驗，用拖拉器材的方式動手做實驗", en: "3D virtual chemistry lab where you run experiments with drag-and-drop equipment" },
           added: "2026-10-01"
+        },
+        {
+          title: "AsapSCIENCE",
+          url: "https://www.youtube.com/user/AsapSCIENCE",
+          desc: { zh: "用手繪動畫和歌曲解說生活中的科學問題（YouTube）", en: "Hand-drawn animations and songs that explain everyday science (YouTube)" },
+          added: "2026-10-06"
         }
       ]
     },
@@ -90,6 +102,18 @@ window.PORTAL = {
           url: "https://kids.nationalgeographic.com",
           desc: { zh: "動物、自然、地理與歷史的趣味知識和影片", en: "Fun facts and videos about animals, nature, geography and history" },
           added: "2026-10-01"
+        },
+        {
+          title: "NASA Kids' Club",
+          url: "https://www.nasa.gov/learning-resources/nasa-kids-club/",
+          desc: { zh: "NASA 給幼兒園到小四的太空遊戲和活動", en: "NASA's space games and activities for pre-K to grade 4" },
+          added: "2026-10-06"
+        },
+        {
+          title: "PBS Kids",
+          url: "https://pbskids.org",
+          desc: { zh: "美國公共電視的兒童遊戲與卡通，寓教於樂", en: "Educational games and shows for kids from PBS" },
+          added: "2026-10-06"
         }
       ]
     },
@@ -144,6 +168,12 @@ window.PORTAL = {
           url: "https://scratch.mit.edu",
           desc: { zh: "MIT 的積木式程式語言，拖拉積木做動畫和遊戲", en: "MIT's block-based coding: build animations and games by snapping blocks together" },
           added: "2026-10-01"
+        },
+        {
+          title: "ScratchJr",
+          url: "https://www.scratchjr.org",
+          desc: { zh: "給 5–7 歲孩子的積木程式 App，做互動故事和遊戲", en: "Block-coding app for ages 5–7 to create interactive stories and games" },
+          added: "2026-10-06"
         },
         {
           title: "Day of AI",
