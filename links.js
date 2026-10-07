@@ -144,6 +144,12 @@ window.PORTAL = {
           url: "https://www.tinkercad.com/",
           desc: { zh: "3D 建模、機器人、電子電路、Arduino；創客實作、程式與硬體模擬", en: "3D design, robotics, circuits and Arduino: simulate code and hardware for maker projects" },
           added: "2026-09-29"
+        },
+        {
+          title: "EveryCircuit",
+          url: "https://everycircuit.com",
+          desc: { zh: "線上電路模擬器，即時動畫顯示電流和電壓變化", en: "Online circuit simulator with live animation of current and voltage" },
+          added: "2026-10-07"
         }
       ]
     },
