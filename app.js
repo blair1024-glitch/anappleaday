@@ -220,6 +220,33 @@
     });
   });
 
+  // ---- visitor counter (abacus.jasoncameron.dev: free, no sign-up) ----
+  // views: +1 on every page load; visitors: +1 once per browser per day
+  function countVisits() {
+    if (location.protocol === "file:") return; // don't count local previews
+    var api = "https://abacus.jasoncameron.dev";
+    var ns = "anappleaday-blair1024";
+    var day = String(today);
+    var newToday = storageGet("counted-day") !== day;
+
+    function call(action, key) {
+      var ctrl = window.AbortController ? new AbortController() : null;
+      if (ctrl) setTimeout(function () { ctrl.abort(); }, 5000);
+      return fetch(api + "/" + action + "/" + ns + "/" + key, ctrl ? { signal: ctrl.signal } : {})
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) { if (typeof d.value !== "number") throw new Error("bad"); return d.value; });
+    }
+
+    Promise.all([call("hit", "views"), call(newToday ? "hit" : "get", "visitors")])
+      .then(function (v) {
+        if (newToday) storageSet("counted-day", day);
+        $("pv").textContent = v[0].toLocaleString();
+        $("uv").textContent = v[1].toLocaleString();
+        $("stats").hidden = false;
+      })
+      .catch(function () { /* service unavailable: keep the counter hidden */ });
+  }
+
   search.addEventListener("input", filter);
   document.addEventListener("keydown", function (e) {
     if (e.key === "/" && document.activeElement !== search) {
@@ -233,4 +260,5 @@
   });
 
   render();
+  countVisits();
 })();
